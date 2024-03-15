@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador - ONE</title>
+    <link rel="icon" href="./images/Logo.png">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <header>
+        <img class="logo" src="./images/Logo.png">
+    </header>
+    <main>
+        <section class="flex-conteiner">
+            <section class="frist-column">
+                
+                <textarea id="texto-input"  class="input">Ingrese el texto aqui</textarea>
+                
+                <h5 class="warning">Solo letras minusculas y sin acentos</h5>
+
+                <div class="buttons">
+                    <button onclick="encriptar()" class="button-encriptar">Encriptar</button>
+                    <button onclick="desencriptar()" class="button-desencriptar">Desencriptar</button>
+                </div>
+            </section>
+
+            <section class="second-column">
+                <img id="img-muneco" src="./images/Muñeco.png" alt="imagen de muneco con lupa">
+                <div>
+                    <h6 id="texto-muneco-bold"><strong>Ningun mensaje fue encontrado</strong></h6>
+                    <p id="p-request">Ingresa el texto que desees encriptar o desencriptar</p>
+                </div>
+            </section>
+        </section>
+    </main>
+    
+</body>
+</html>

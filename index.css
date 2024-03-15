@@ -1,0 +1,111 @@
+*{
+    background-color: #E5E5E5;
+    font-style: inter, italic;
+}
+
+.logo{
+    margin-top: 15px;
+    margin-left: 20px;
+    width: 15%;
+    height: 15%;
+    object-fit: cover;
+}
+
+.flex-conteiner{
+    display: flex;
+    width: 90%;
+    height: 100%;
+    padding: 1%;
+    
+    flex-direction: row wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    margin: 0 auto;
+    
+}
+
+.frist-column{
+    width: 60%;
+    margin: 1%;
+    align-items: center;
+}
+
+.frist-column textarea{
+    height: 80%;
+    width: 99%;
+    border: none;
+    font-family: 'Inter', italic;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.warning{
+    margin: 10px auto;
+    margin-left: 20px;
+    color: rgb(88, 84, 84);
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    margin-top: 4%;
+    justify-content: center;
+}
+
+.button-encriptar{
+    background-color: darkblue;
+
+    border: 1px solid darkblue;
+    color: white;
+    font-size: 16px;
+    border-radius: 32px;
+    height: 40px;
+    width: 40%;
+}
+
+.button-desencriptar{
+    border: 1px solid darkblue;
+    border-radius: 32px;
+    height: 40px;
+    width: 40%;
+    margin-left: 4%;
+    font-size: 16px;
+    background-color: #d8dfe8;
+    color: darkblue;
+}
+
+.second-column{
+    border: 1px solid darkblue;
+    border-radius: 32px;
+    width: 30%;
+    height: 600px;
+    margin: 1%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.second-column h6{
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 12px;
+    color: rgb(63, 59, 59);
+}
+
+.second-column p{
+    text-align: center;
+    font-size: 17px;
+    margin-top: 20px;
+    color: rgb(128, 118, 118);
+}
+
+.second-column img{
+    width: 80%;
+    height:auto;
+    object-fit: cover;
+}
